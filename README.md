@@ -186,8 +186,8 @@ kayak-destination-recommender/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/kayak-destination-recommender.git
-cd kayak-destination-recommender
+git clone https://github.com/Ter0rra/02_Jedha_cdsd_bloc_1_kayak/
+cd 02_Jedha_cdsd_bloc_1_kayak
 ```
 
 2. **Create virtual environment**
@@ -219,7 +219,6 @@ S3_BUCKET_NAME=your_bucket_name
 DATABASE_URL=postgresql://user:password@host/database
 
 # APIs
-METEO_FRANCE_API_KEY=your_api_key
 HERE_API_KEY=your_api_key
 HERE_api_URL=here_api_url
 ```
@@ -233,10 +232,10 @@ HERE_api_URL=here_api_url
 ### 2. Scrape Hotel Data
 ```bash
 # Step 1: Get hotel URLs
-python src/booking_url_hotel.py --cities data/cities_list.csv
+python src/booking_url_hotel.py 
 
 # Step 2: Scrape hotel details
-python src/booking_info_hotel.py --urls data/raw/hotel_urls.json
+python src/booking_info_hotel.py 
 ```
 
 ### 3. Geocode Hotel Addresses
