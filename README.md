@@ -155,19 +155,21 @@ kayak-destination-recommender/
 ├── 📝 README.md                         # This file
 ├── 📦 requirements.txt                  # Dependencies
 ├── 📄 LICENSE                           # MIT License
-├──    .env.example                      # Environment 
+├── 🔑 .env.example                      # Environment 
 │                    
 ├── 📂 src/                             # Source code
 │   ├── booking_url_hotel.py            # Spyder hotel URLs
 │   └── booking_info_hotel.py           # Spyder for details
 │
-└── 📂 data/                            # Data files
-    ├── all_cities_url_hotels.json
-    ├── all_hotels_details_insee.json
-    ├── hotels_details.json
-    ├── weather.csv
-    ├── cities_weather.csv
-    └── hotels_info.csv
+├── 📂 data/                            # Data files
+│   ├── all_cities_url_hotels.json
+│   ├── all_hotels_details_insee.json
+│   ├── hotels_details.json
+│   ├── weather.csv
+│   ├── cities_weather.csv
+│   └── hotels_info.csv
+│
+└── 📂 img/                             # plot & screenshot of s3+db
 ```
 
 ---
