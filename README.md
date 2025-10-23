@@ -153,7 +153,7 @@ kayak-destination-recommender/
 │
 ├── 📓 Kayak_Project.ipynb               # analysis nb
 ├── 📝 README.md                         # This file
-├── 📦 requirements.txt                  # Dependencies
+├── 📦 environment.yml                   # Dependencies
 ├── 📄 LICENSE                           # MIT License
 ├── 🔑 .env.example                      # Environment 
 │                    
@@ -192,19 +192,12 @@ git clone https://github.com/Ter0rra/02_Jedha_cdsd_bloc_1_kayak/
 cd 02_Jedha_cdsd_bloc_1_kayak
 ```
 
-2. **Create virtual environment**
+2. **Create virtual environment & Install dependencies**
 ```bash
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
+conda env create -f environment.yml # env basefile  
 ```
 
-3. **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-4. **Configure environment variables**
+3. **Configure environment variables**
 ```bash
 cp config/.env.example .env
 # Edit .env with your API keys and credentials
