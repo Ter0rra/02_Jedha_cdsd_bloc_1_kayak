@@ -4,7 +4,7 @@ from scrapy.crawler import CrawlerProcess
 import pandas as pd
 
 # Charger les villes depuis le CSV
-path_cities = r'C:\Users\alber\Desktop\visual_studio_code\dossier_jedha\Jedha_Full_stack\03_Data_Collection_&_Management_(DCM)\00- projet kayak\data\cities_weather.csv'
+path_cities = r'..\data\cities_weather.csv'
 cities_df = pd.read_csv(path_cities)
 
 class BookingURLSpider(scrapy.Spider):

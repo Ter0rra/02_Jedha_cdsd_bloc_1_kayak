@@ -19,7 +19,7 @@ class BookingDetailsSpider(scrapy.Spider):
     def start_requests(self):
         """Charge les URLs depuis le fichier JSON"""
         # Chemin vers votre fichier JSON avec les URLs
-        json_path = r'C:\Users\alber\Desktop\visual_studio_code\dossier_jedha\Jedha_Full_stack\03_Data_Collection_&_Management_(DCM)\00- projet kayak\data\all_cities_urls_hotels.json'
+        json_path = r'..\data\all_cities_urls_hotels.json'
         
         # Charger le JSON
         with open(json_path, 'r', encoding='utf-8') as f:
