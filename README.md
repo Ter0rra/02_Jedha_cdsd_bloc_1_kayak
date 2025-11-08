@@ -46,7 +46,7 @@ After conducting user studies, the marketing team discovered:
 ## 🚀 Project Objective
 
 Build a **destination recommendation application** that suggests the best vacation spots and hotels based on:
-- 🌤️ **Real-time weather data**
+- 🌤️ **weather data by destination**
 - 🏨 **Hotel availability and information**
 - 📍 **Geographic location data**
 
@@ -63,14 +63,14 @@ Build a **destination recommendation application** that suggests the best vacati
 ### 1. Weather Data
 - **Source**: Météo France API
 - **Data**: Temperature, precipitation, forecasts
-- **Coverage**: Target cities in France and Europe
+- **Coverage**: Target cities in France
 
 ### 2. Hotel Data
 - **Source**: Booking.com (Web Scraping)
 - **Scripts**: 
   - `booking_url_hotel.py` - Extract hotel URLs
   - `booking_info_hotel.py` - Scrape detailed hotel information
-- **Data**: Prices, ratings, amenities, availability
+- **Data**: ratings, desciptions
 
 ### 3. Geolocation Data
 - **Source**: HERE API
