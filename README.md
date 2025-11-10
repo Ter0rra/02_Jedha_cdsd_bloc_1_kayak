@@ -332,7 +332,6 @@ aws configure list
 
 **Romano Albert**
 - 🔗 [LinkedIn](www.linkedin.com/in/albert-romano-ter0rra)
-- 📧 [Email](mailto:terorra.ia.data@gmail.com)
 - 🐙 [GitHub](https://github.com/Ter0rra)
 
 ---
